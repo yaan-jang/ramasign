@@ -2,7 +2,7 @@
 
 # Generative Protein Design via Diffusion on Ramachandran Maps
 
-This repository implements a **generative protein design framework** using a **Transformer-based diffusion model** operating directly over **Ramachandran maps** (φ–ψ backbone torsion angle space). The model learns to generate realistic proteins by modeling the intrinsic geometry of protein structures in a compact, biologically meaningful representation.
+This repository implements a **generative protein design framework** using a **Transformer-based diffusion model** operating directly over **Ramachandran maps** (φ–ψ torsion angle space). The model learns to generate realistic proteins by modeling the intrinsic geometry of protein structures in a compact, biologically meaningful representation.
 
 
 ## Overview
@@ -67,7 +67,7 @@ python generation.py \
 
 ## Applications
 
-- De novo protein backbone design  
+- De novo protein design  
 - Structural biology hypothesis generation  
 - Protein fold space exploration  
 - Conditional protein generation  
